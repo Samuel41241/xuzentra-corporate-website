@@ -9,7 +9,11 @@ function Footer() {
       <div className="container footer-grid">
         <div>
           <div className="footer-brand">
-            <span className="brand-mark">X</span>
+             <img
+    src="/images/logo/xuzentra-logo.png"
+    alt="Xuzentra Technologies Limited"
+    className="brand-logo"
+  />
             <div className="brand-text">
               <span className="brand-name">{company.shortName}</span>
               <span className="brand-subtitle">Technologies Limited</span>
