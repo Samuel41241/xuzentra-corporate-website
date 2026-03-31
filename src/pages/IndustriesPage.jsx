@@ -1,8 +1,19 @@
+
+import { Helmet } from "react-helmet-async";
 import industries from "../data/industries";
 
 function IndustriesPage() {
   return (
     <section className="page-section">
+
+ <Helmet>
+        <title>Industries | Xuzentra Technologies Limited</title>
+        <meta
+          name="description"
+          content="Education, Health Care, Energy, Public Sector, Development Program and Enterprise Operations"
+        />
+      </Helmet>
+
       <div className="container">
         <div className="page-placeholder">
           <p className="eyebrow">Industries</p>

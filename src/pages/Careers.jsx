@@ -1,3 +1,5 @@
+
+import { Helmet } from "react-helmet-async";
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { supabase } from "../lib/supabase";
@@ -57,6 +59,13 @@ function Careers() {
 
   return (
     <section className="page-section">
+       <Helmet>
+        <title>Careers | Xuzentra Technologies Limited</title>
+        <meta
+          name="description"
+          content="We're building! Explore the opportunities of building with a soon to be one of African giant technology companies"
+        />
+      </Helmet>
       <div className="container">
         <div className="careers-hero">
           <p className="eyebrow">Careers</p>

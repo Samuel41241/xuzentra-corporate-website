@@ -40,7 +40,7 @@ function Hero() {
 
         <div className="hero-visual">
           <img
-            src="/images/hero/xuzentra-hero.png"
+            src="/images/hero/xuzentra-hero.jpg"
             alt="Xuzentra digital solutions"
             className="hero-image"
           />

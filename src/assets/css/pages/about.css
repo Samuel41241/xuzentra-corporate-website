@@ -17,7 +17,9 @@
 }
 
 @media (max-width: 900px) {
-  .page-list-grid {
+  .page-list-grid,
+  .career-meta-grid,
+  .job-filters {
     grid-template-columns: 1fr;
   }
 }

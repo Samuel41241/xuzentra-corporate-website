@@ -31,6 +31,8 @@ function AboutPreview() {
             src="/images/misc/office-tech.png"
             alt="Xuzentra technology visual"
             className="about-image"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

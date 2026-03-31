@@ -1,8 +1,18 @@
+import { Helmet } from "react-helmet-async";
 import services from "../data/services";
 
 function Solutions() {
   return (
     <section className="page-section">
+
+<Helmet>
+        <title>Solutions | Xuzentra Technologies Limited</title>
+        <meta
+          name="description"
+          content="We design both custom and SaaS software to solve organizations' real operational problems. We develop project monitoring systems that provide insights, analytics and performance tracking. "
+        />
+      </Helmet>
+
       <div className="container">
         <div className="page-placeholder">
           <p className="eyebrow">Solutions</p>

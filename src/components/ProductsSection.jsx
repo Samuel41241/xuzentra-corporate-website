@@ -22,6 +22,8 @@ function ProductsSection() {
                 src={product.image}
                 alt={product.name}
                 className="product-image"
+                loading="lazy"
+                decoding="async"
               />
               <div className="product-badge">{product.category}</div>
               <h3>{product.name}</h3>

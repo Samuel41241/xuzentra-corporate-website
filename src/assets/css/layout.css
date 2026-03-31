@@ -25,3 +25,13 @@
   text-transform: uppercase;
   color: var(--color-accent);
 }
+
+@media (max-width: 900px) {
+  .page-section {
+    padding: 4rem 0;
+  }
+
+  .page-placeholder {
+    padding: 1.5rem;
+  }
+}

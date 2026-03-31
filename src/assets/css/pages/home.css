@@ -290,7 +290,8 @@
   .industries-grid,
   .about-preview-grid,
   .contact-grid,
-  .hero-metrics {
+  .hero-metrics,
+  .credibility-grid {
     grid-template-columns: 1fr;
   }
 
@@ -301,8 +302,19 @@
   }
 
   .hero-placeholder,
-  .about-placeholder {
-    min-height: 280px;
+  .about-placeholder,
+  .hero-image,
+  .about-image {
+    min-height: 260px;
+    max-height: 320px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.5rem, 6vw, 2.2rem);
   }
 }
 
@@ -367,6 +379,12 @@
 
 .center {
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    padding: 4rem 0 3rem;
+  }
 }
 
 @media (max-width: 900px) {

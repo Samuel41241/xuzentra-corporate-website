@@ -1,8 +1,19 @@
+
+import { Helmet } from "react-helmet-async";
 import products from "../data/products";
 
 function Products() {
   return (
     <section className="page-section">
+
+ <Helmet>
+        <title>Products | Xuzentra Technologies Limited</title>
+        <meta
+          name="description"
+          content="EduSignal, GasWiseNG (XFPI), MedCleanOps & DigiGuide NG"
+        />
+      </Helmet>
+
       <div className="container">
         <div className="page-placeholder">
           <p className="eyebrow">Products</p>

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import App from "./App";
 
 import "./assets/css/variables.css";
@@ -12,13 +13,13 @@ import "./assets/css/pages/about.css";
 import "./assets/css/pages/solutions.css";
 import "./assets/css/pages/products.css";
 import "./assets/css/pages/contact.css";
-import "./assets/css/pages/admin.css";
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </HelmetProvider>
   </React.StrictMode>
 );

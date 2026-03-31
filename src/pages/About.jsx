@@ -1,8 +1,17 @@
+import { Helmet } from "react-helmet-async";
 import company from "../data/company";
 
 function About() {
   return (
     <section className="page-section">
+      <Helmet>
+        <title>About | Xuzentra Technologies Limited</title>
+        <meta
+          name="description"
+          content="Learn about Xuzentra Technologies Limited, a Nigerian technology company building scalable digital systems for institutions and emerging markets."
+        />
+      </Helmet>
+
       <div className="container">
         <div className="page-placeholder">
           <p className="eyebrow">About Us</p>

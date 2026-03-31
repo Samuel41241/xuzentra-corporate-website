@@ -4,9 +4,9 @@ function TrustStrip() {
       <div className="container trust-inner">
         <div className="trust-items">
           <span>Registered Nigerian Technology Company</span>
-          <span>Product Innovation</span>
+          <span>Sector-Focused Product Innovation</span>
           <span>Institutional Solutions</span>
-          <span>Sector-Focused Digital Systems</span>
+          <span>Operational Digital Systems</span>
         </div>
       </div>
     </section>
