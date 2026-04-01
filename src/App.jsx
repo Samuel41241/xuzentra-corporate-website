@@ -18,6 +18,12 @@ import AdminLogin from "./pages/AdminLogin";
 import AdminInquiries from "./pages/AdminInquiries";
 import AdminJobs from "./pages/AdminJobs";
 import AdminJobEditor from "./pages/AdminJobEditor";
+import EduSignal from "./pages/products/EduSignal";
+import GasWise from "./pages/products/GasWise";
+import MedCleanOps from "./pages/products/MedCleanOps";
+import DigiGuide from "./pages/products/DigiGuide";
+import AdminUpdates from "./pages/AdminUpdates";
+import AdminUpdateEditor from "./pages/AdminUpdateEditor";
 
 function App() {
   const [session, setSession] = useState(null);
@@ -49,6 +55,36 @@ function App() {
         <Route path="careers/:slug" element={<CareerDetails />} />
         <Route path="contact" element={<Contact />} />
         <Route path="admin/login" element={<AdminLogin />} />
+        <Route path="/products/edusignal" element={<EduSignal />} />
+        <Route path="/products/gaswise" element={<GasWise />} />
+        <Route path="/products/medcleanops" element={<MedCleanOps />} />
+        <Route path="/products/digiguide" element={<DigiGuide />} />
+        <Route
+  path="admin/updates"
+  element={
+    <ProtectedRoute session={session}>
+      <AdminUpdates />
+    </ProtectedRoute>
+  }
+/>
+
+<Route
+  path="admin/updates/new"
+  element={
+    <ProtectedRoute session={session}>
+      <AdminUpdateEditor />
+    </ProtectedRoute>
+  }
+/>
+
+<Route
+  path="admin/updates/:id/edit"
+  element={
+    <ProtectedRoute session={session}>
+      <AdminUpdateEditor />
+    </ProtectedRoute>
+  }
+/>
 
         <Route
           path="admin/inquiries"

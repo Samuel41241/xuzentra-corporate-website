@@ -11,7 +11,7 @@ function Credibility() {
           <div className="credibility-card">
             <h3>Registered Company</h3>
             <p>
-              Xuzentra Technologies Limited is a registered Nigerian company,
+              Xuzentra Technologies Limited is a duly registered Nigerian company under the Corporate Affairs Commission (CAC) with RC: 9416582,
               positioned to design and deploy scalable digital solutions across
               multiple sectors.
             </p>
@@ -20,8 +20,7 @@ function Credibility() {
           <div className="credibility-card">
             <h3>Multi-Sector Focus</h3>
             <p>
-              We operate across education, healthcare, energy, and public sector
-              ecosystems — building practical tools for real-world challenges.
+              We operate as a sector-focused technology company delivering digital infrastructure solutions across education, healthcare, energy, and public-sector ecosystems.
             </p>
           </div>
 

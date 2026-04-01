@@ -21,3 +21,43 @@
     grid-template-columns: 1fr;
   }
 }
+
+.product-page {
+  max-width: 900px;
+}
+
+.product-hero {
+  margin-bottom: 2rem;
+}
+
+.product-tagline {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.product-section {
+  margin-top: 2.5rem;
+}
+
+.product-section h2 {
+  margin-bottom: 0.8rem;
+}
+
+.product-section ul {
+  padding-left: 1.2rem;
+}
+
+.product-section li {
+  margin-bottom: 0.5rem;
+}
+
+.product-cta {
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 98, 254, 0.1),
+    rgba(244, 162, 97, 0.06)
+  );
+}

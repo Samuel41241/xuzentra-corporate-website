@@ -1,16 +1,22 @@
-
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import products from "../data/products";
 
 function Products() {
+  const productLinks = {
+    EduSignal: "/products/edusignal",
+    "GasWise Nigeria": "/products/gaswise",
+    MedCleanOps: "/products/medcleanops",
+    "DigiGuide NG": "/products/digiguide",
+  };
+
   return (
     <section className="page-section">
-
- <Helmet>
+      <Helmet>
         <title>Products | Xuzentra Technologies Limited</title>
         <meta
           name="description"
-          content="EduSignal, GasWiseNG (XFPI), MedCleanOps & DigiGuide NG"
+          content="Explore Xuzentra’s product portfolio across education, healthcare, energy, and digital inclusion."
         />
       </Helmet>
 
@@ -29,6 +35,12 @@ function Products() {
                 <p className="page-mini-label">{product.category}</p>
                 <h3>{product.name}</h3>
                 <p>{product.description}</p>
+
+                {productLinks[product.name] && (
+                  <Link to={productLinks[product.name]} className="btn btn-outline">
+                    View Product
+                  </Link>
+                )}
               </article>
             ))}
           </div>
