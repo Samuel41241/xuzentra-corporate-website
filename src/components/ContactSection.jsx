@@ -73,8 +73,9 @@ function ContactSection() {
 
           <ul className="contact-points">
             <li>Location: {company.location}</li>
-            <li>General Inquiries: {company.email}</li>
-            <li>Partnerships: {company.inquiryEmail}</li>
+            <li>General Inquiries: {company.inquiryEmail}</li>
+            <li>Partnerships: {company.email}</li>
+            <li>Join Us: {company.careers}</li>
             <li>Phonecontact: {company.phonecontact}</li>
           </ul>
         </div>

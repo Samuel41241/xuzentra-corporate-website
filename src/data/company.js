@@ -9,8 +9,9 @@ const company = {
   vision:
     "To become a trusted African technology company delivering digital infrastructure for institutional transformation and emerging market innovation.",
   location: "Abuja, Nigeria",
-  email: "xuzentratechnologies@gmail.com",
-  inquiryEmail: "xuzentratechnologies@gmail.com",
+  email: "partnerships@xuzentra.com",
+  inquiryEmail: "info@xuzentra.com",
+  careers: "careers@xuzentra.com",
   phonecontact: "+234-9156-234-696",
 };
 
