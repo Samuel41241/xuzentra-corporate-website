@@ -9,7 +9,7 @@ function HomepageUpdateBanner({ update }) {
     <section
       className="homepage-update-banner hero-immersive"
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(3, 10, 25, 0.9), rgba(3, 10, 25, 0.55), rgba(3, 10, 25, 0.2)), url("${update.image_url || "/images/hero/xuzentra-hero.jpg"}")`,
+        backgroundImage: `linear-gradient(90deg, rgba(3, 10, 25, 0.9), rgba(3, 10, 25, 0.55), rgba(3, 10, 25, 0.2)), url("${update.image_url || "https://pqbkdrovafvfkezaqfhz.supabase.co/storage/v1/object/public/site-assets/flyers/image0.webp"}")`,
       }}
     >
       <div className="hero-glow hero-glow-one" />

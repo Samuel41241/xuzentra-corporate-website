@@ -6,7 +6,7 @@ function Hero() {
     <section
       className="hero-section hero-immersive"
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(3, 10, 25, 0.88), rgba(3, 10, 25, 0.52), rgba(3, 10, 25, 0.18)), url("/images/hero/xuzentra-hero.jpg")`,
+        backgroundImage: `linear-gradient(90deg, rgba(3, 10, 25, 0.88), rgba(3, 10, 25, 0.52), rgba(3, 10, 25, 0.18)), url("https://pqbkdrovafvfkezaqfhz.supabase.co/storage/v1/object/public/site-assets/flyers/image0.webp")`,
       }}
     >
       <div className="hero-glow hero-glow-one" />
